@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="clock-container">
+  <h1>Alarm Clock</h1>
+  
+  <div id="currentTime">00:00:00</div>
+
+  <div class="alarm-set">
+    <input type="time" id="alarmTime">
+    <button onclick="setAlarm()">Set Alarm</button>
+  </div>
+
+  <p id="status"></p>
+</div>
+
+<audio id="alarmSound" src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
